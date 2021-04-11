@@ -1,218 +1,342 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Magina | Software Developer</title>
 
-<head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="/Portfolio_Data/portfolio.css">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Personal Page">
-  <meta name="author" content="Diogo Magina">
 
-  <title>Magina | Software Developer</title>
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/79d613103e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+        <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/79d613103e.js" crossorigin="anonymous"></script>
+        <script src="Main/js/scrolling-nav.js"></script>
 
-  <!-- Custom styles for this template -->
-  <link href="Main/css/scrolling-nav.css" rel="stylesheet">
+        <!-- Wow & Animate -->
+        <link rel="stylesheet" type="text/css" href="/Portfolio_Data/animate.css"/>
+        <script src="/Portfolio_Data/js/scrolling-nav.js"></script>
+        <script src="/Portfolio_Data/js/wow.js"></script>
+        <script> new WOW().init();</script>
+    </head>
 
-  <!-- Wow & Animate -->
-  <link rel="stylesheet" type="text/css" href="Main/css/animate.css"/>
-  <script src="Main/js/scrolling-nav.js"></script>
-  <script src="Main/js/wow.js"></script>
-  <script> new WOW().init();</script>
+    <body id="page-top">
 
-</head>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" wfd-invisible="true" style="background-color: white;">
+            <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="/Portfolio_Data/images/magina_dark.png" width="150" class="d-inline-block align-top" alt="">
+            </a>
 
-<body id="page-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="Main\images\magina_dark.png" width="200" class="d-inline-block align-top" alt="">
-      </a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfólio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="Artiset">Artiset</a>
+                </li>
+                </ul>
+            </div>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            </div>
+        </nav>
 
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfólio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="Web_Artiset">Artiset</a>
-          </li>
-        </ul>
-      </div>
+        <div class="main" style="padding-top: 50px;">
+            <div style="margin: auto;">
+                <img src="Portfolio_Data/images/magina_big.png" class="text-center logo-small wow fadeInDown">
+                <h1 class="text-center title major-text-w wow fadeInLeft t" style="margin-bottom: 20px;">Olá, sou o <span class="breathing">Magina</span></h1>
+                <p style="margin-bottom: 50px;"" class="wow fadeInRight">Para saberem mais sobre mim ou o meu trabalho, continuem a descer</p>
+                <a href="#about" class="wow fadeIn js-scroll-trigger animated chevron-down"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+            </div>
 
-    </div>
-  </nav>
-
-  <header class="bg-white text-white">
-    <div class="container" style="height: 700px;">
-      
-      <div class="row">
-        <div class="col-md-8">
-          <h1 class="wow fadeInLeft title">Olá,<br>sou o <span class="breathing">Magina</span></h1>
-          <p class="lead wow fadeInRight title-description">Um <span style="color: #da4949;">estudante de programação</span> que ainda não sabe se este caminho foi uma boa ideia <br> 
-            Para saberem mais sobre mim e o meu trabalho até agora, continuem a descer</p>
-        </div>
-
-        <div class="col-md-4">
-          <img src="Main\images\M.png" alt="" class="m_logo" style="opacity: 0.3; vertical-align: bottom;" width="300">
-        </div>
-      </div>
-
-        <div class="text-center" style="margin-top: 300px;">
-          <a href="#about" class="wow fadeIn js-scroll-trigger" style="color: #da4949; font-size: 30px;"><i class="fas fa-chevron-down"></i></a>
-        </div>
-    </div>
-  </header>
-
-  <section id="about" class="bg-light" style="padding-top: 75px; padding-bottom: 75px;">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-10 mx-auto">
-          <h2 class="text-center section-header">Sobre Mim</h2>
-          <p class="lead" style="margin-bottom: 0px;">Sou o <strong>Diogo Magina</strong>, um estudante de programação com 20 anos, de Portugal.<br>
-            Estudo atualmente na <a href="https://esfdferreira.wordpress.com/" class="red-link">Escola Secundária Ferreira Dias</a>, estando no 3º e último ano do Curso "Técnico de Gestão e Programação de Sistemas Informáticos".
-            <br>Escolhi esta área porque desde pequeno que tenho um interesse específico por saber como as coisas funcionam.
-            Passava horas e horas a desmontar pequenos brinquedos simples e até coisas mais complexas como carros telecomandados, etc.
-            <br>Quando acabei o 9ºano e tive que escolher uma área, estava indeciso entre Multimédia e Programação. Foi só mesmo à última da hora que a decisão foi feita.
-            <br>E assim começou este caminho longo e duro mas no fim recompensante... <i class="fas fa-grin-beam-sweat"></i>
-            <br>O meu objetivo atual é acabar o curso e começar a trabalhar numa empresa da área.
-            E se possível, tentar aprender desenvolvimento em iOS e focar-me/especializar-me no tópico. <i class="fab fa-apple"></i>
-          </p>
-        </div>
-      </div>
-
-      <div class="row" style="margin-top: 20px;">
-        <div class="col-xl-3 col-md-3">
-            <div class="single_service text-center">
-                <div class="icon">
-                    <i class="fas fa-desktop fa-5x" aria-hidden="true"></i>
+            <div class="waveWrapper waveAnimation">
+                <div class="waveWrapperInner bgMiddle">
+                    <div class="wave waveMiddle" style="background-image: url('https://t03-magina.vigion.pt/Portfolio_Data/images/wave-mid.png')"></div>
                 </div>
-                <h3 style="margin-top: 10px;">Desktop</h3>
+                <div class="waveWrapperInner bgBottom">
+                    <div class="wave waveBottom" style="background-image: url('https://t03-magina.vigion.pt/Portfolio_Data/images/wave-bot.png')"></div>
+                </div>
             </div>
         </div>
-        <div class="col-xl-3 col-md-3">
-            <div class="single_service text-center">
-                <div class="icon">
-                    <i class="fas fa-globe fa-5x" aria-hidden="true"></i>
+
+        <section id="about">
+            <div class="container-fluid red-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto">
+                            <h2 class="text-center display-4 section-header">Sobre Mim</h2>
+
+                            <img src="/Portfolio_Data/images/magina.jpg" class="mx-auto d-block picture">
+
+                            <p class="text-center" style="color: #dfdfdf; word-wrap: normal;">Sou o <strong>Diogo Magina</strong>, um estudante de programação com 20 anos, de Portugal.
+                            <br>Escolhi esta área porque desde pequeno que tenho um interesse específico por saber como as coisas funcionam.
+                            Passava horas e horas a desmontar pequenos brinquedos simples e até coisas mais complexas como carros telecomandados, etc.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="text-center">Conhecimentos</h2>
+
+                    <div class="row">
+
+                        <div class="col-md-6 col-lg-4 col-xl-4 temp" style="padding-top: 30px;">
+                            <div class="card">
+                                <div class="row card-body">
+                                    <img class="col-sm-3 card-image" src="/Portfolio_Data/images/svg/phone.svg" alt="sans"/>
+                                    <div class="vl"></div>
+                                    <div class="col">
+                                        <h5 class="card-title" style="font-size: 1.5rem;">Android</h5>
+                                        <ul class="lista-carta">
+                                            <li>Kotlin</li>
+                                            <li>Java</li>
+                                            <li>XML (Layouts)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 col-xl-4 temp" style="padding-top: 30px;">
+                            <div class="card">
+                                <div class="row card-body">
+                                    <img class="col-sm-3 card-image" src="/Portfolio_Data/images/svg/web.svg" alt="sans"/>
+                                    <div class="vl"></div>
+                                    <div class="col">
+                                        <h5 class="card-title" style="font-size: 1.5rem;">Web</h5>
+                                        <ul class="lista-carta">
+                                            <li>HTML</li>
+                                            <li>CSS / Bootstrap</li>
+                                            <li>Javascript</li>
+                                            <li>JSON</li>
+                                            <li>PHP</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 col-xl-4 temp" style="padding-top: 30px;">
+                            <div class="card">
+                                <div class="row card-body">
+                                    <img class="col-sm-3 card-image" src="/Portfolio_Data/images/svg/laptop.svg" alt="sans"/>
+                                    <div class="vl"></div>
+                                    <div class="col">
+                                        <h5 class="card-title" style="font-size: 1.5rem;">Desktop</h5>
+                                        <ul class="lista-carta">
+                                            <li>C#</li>
+                                            <li>WinForms</li>
+                                            <li>WPF</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 col-xl-4 temp" style="padding-top: 30px;">
+                            <div class="card">
+                                <div class="row card-body">
+                                    <img class="col-sm-3 card-image" src="/Portfolio_Data/images/svg/server.svg" alt="sans"/>
+                                    <div class="vl"></div>
+                                    <div class="col">
+                                        <h5 class="card-title" style="font-size: 1.5rem;">Base de Dados</h5>
+                                        <ul class="lista-carta">
+                                            <li>MySQL</li>
+                                            <li>SQLServer</li>
+                                            <li>SQLite</li>
+                                            <li>Firebase</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 col-xl-4 temp" style="padding-top: 30px;">
+                            <div class="card">
+                                <div class="row card-body">
+                                    <img class="col-sm-3 card-image" src="/Portfolio_Data/images/svg/tools.svg" alt="sans"/>
+                                    <div class="vl"></div>
+                                    <div class="col">
+                                        <h5 class="card-title" style="font-size: 1.5rem;">Software</h5>
+                                        <ul class="lista-carta">
+                                            <li>Visual Studio</li>
+                                            <li>Visual Studio Code</li>
+                                            <li>Android Studio</li>
+                                            <li>PHPStorm</li>
+                                            <li>Unity</li>
+                                            <li>MySQL Workbench</li>
+                                            <li>Visual Paradigm</li>
+                                            <li>SourceTree</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 col-xl-4 temp" style="padding-top: 30px;">
+                            <div class="card">
+                                <div class="row card-body">
+                                    <img class="col-sm-3 card-image" src="/Portfolio_Data/images/svg/code.svg" alt="sans"/>
+                                    <div class="vl"></div>
+                                    <div class="col">
+                                        <h5 class="card-title" style="font-size: 1.5rem;">Outros</h5>
+                                        <ul class="lista-carta">
+                                            <li>Git</li>
+                                            <li>GitLab</li>
+                                            <li>GitHub</li>
+                                            <li>BitBucket</li>
+                                            <li>Azure DevOps</li>
+                                            <li>Trello</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <a href="https://drive.google.com/open?id=1oKBDbWfu_uMvqU4gVqqq3dVUhCeVeXaU" class="btn curriculum-btn"><i class="fas fa-file-pdf"></i> Curriculum</a>
+                    </div>
                 </div>
-                <h3 style="margin-top: 10px;">Web</h3>
             </div>
-        </div>
-        <div class="col-xl-3 col-md-3">
-            <div class="single_service text-center">
-                <div class="icon">
-                    <i class="fas fa-mobile-alt fa-5x" aria-hidden="true"></i>
+        </section>
+
+        <section id="portfolio" style="padding-top: 30px;">
+            <div class="container-fluid white-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto">
+                            <h2 class="text-center display-4 section-header-b">Portfólio</h2>
+                        </div>
+                    </div>
+
+		<div class="row featurette">
+                <div class="col-md-3 order-md-1">
+                            <img src="/Portfolio_Data/images/kittls.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300px">
+                        </div>
+                        <div class="col order-md-2">
+                            <h2 class="featurette-heading">Kittls</h2>
+                            <p style="color: #333; font-size: 18px; font-weight: 300;">Kittls é uma aplicação que te permite organizar a tua coleção de jogos, as tuas proezas e da-te o acesso
+as comunidades dos teus jogos favoritos.
+<br>(Projeto em desenvolvimento ativo)</p>
+
+                            <div class="btn-project">
+                                <a href="https://kittls.vigion.pt" class="btn red-btn"><i class="fas fa-link"></i> Visitar</a>
+                               <!-- <a href="#" class="btn red-btn"><i class="fab fa-google-play"></i> Google Play</a>-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+
+                    <div class="row featurette">
+                        <div class="col-md-3 order-md-1">
+                            <img src="/Portfolio_Data/images/artiset.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300px">
+                        </div>
+                        <div class="col order-md-2">
+                            <h2 class="featurette-heading">Artiset</h2>
+                            <p style="color: #333; font-size: 18px; font-weight: 300;">Artiset é um nova comunidade de arte que tem como objetivo partilhar e dar a conhecer as pessoas, os trabalhos de artistas independentes de todo o mundo -
+                            isto porque a arte tem o poder de inspirar, evocar emoções e criar um impacto no mundo.<br>(Desenvolvida no âmbito da Prova de Aptidão Profissional.)</p>
+
+                            <div class="btn-project">
+                                <a href="Artiset" class="btn red-btn"><i class="fas fa-link"></i> Visitar</a>
+                                <a href="https://play.google.com/store/apps/details?id=pt.vigion.artiset" class="btn red-btn"><i class="fab fa-google-play"></i> Google Play</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-3 order-md-1">
+                            <img src="Portfolio_Data/images/mr_tictactoe.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300px">
+                        </div>
+                        <div class="col order-md-2">
+                            <h2 class="featurette-heading">Mr. TicTacToe</h2>
+                            <p style="color: #333; font-size: 18px; font-weight: 300;">Um simples jogo do galo que te permite meter o papel e o lápis de lado e começares a jogar este clássico no teu smartphone Android.<br>
+                          (Não está mais em desenvolvimento)</p>
+
+                            <div class="btn-project">
+                                <a href="https://play.google.com/store/apps/details?id=com.IntroByteEntertainment.MrTicTacToe&hl=en" class="btn red-btn"><i class="fab fa-google-play"></i> Google Play</a>
+                            <a href="https://github.com/magina99/MrTicTacToe_Android" class="btn btn-outline-secondary git-btn"><i class="fab fa-github"></i></i> Código Fonte</a>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
-                <h3 style="margin-top: 10px;">Mobile</h3>
             </div>
-        </div>
-        <div class="col-xl-3 col-md-3">
-            <div class="single_service text-center">
-                <div class="icon">
-                    <i class="fas fa-database fa-5x" aria-hidden="true"></i>
+        </section>
+
+        <section id="contact" style="padding-top: 30px;">
+            <div class="container-fluid red-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="mx-auto">
+                            <h2 class="text-center display-4 section-header">Contacto</h2>
+                            <p class="text-center" style="color: #dfdfdf; word-wrap: normal;">Alguma pergunta que queiras fazer? Uma sugestão? Uma ideia talvez?<br>
+                                Podes fazer isso tudo contactando-me por email ou através das seguintes plataformas:</p>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-bottom: 16px;">
+                        <div class="mx-auto">
+                            <p class="email text-center">dmagina99dev@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col footer-bottom" style="font-size: 0.5rem;">
+                            <a href="https://www.instagram.com/magina_99/"><i class="fab fa-instagram fa-6x" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/magina_99" style="padding-left: 1rem;"><i class="fab fa-twitter fa-6x" aria-hidden="true"></i></a>
+                            <a href="https://gitlab.com/dmagina99" style="padding-left: 1rem;"><i class="fab fa-gitlab fa-6x" aria-hidden="true"></i></a>
+                            <a href="https://github.com/magina99" style="padding-left: 1rem;"><i class="fab fa-github fa-6x thisbish" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <h3 style="margin-top: 10px;">Base de dados</h3>
             </div>
-        </div>
-    </div>
-    
-    <div class="row"  style="margin-top: 20px;">
-      <div class="col-lg-10 mx-auto">
-        <h2 class="text-center section-small-header">Experiência nas seguintes linguagens/tecnologias:</h2>
-        <p class="lead stack-text text-center">C# - WinForms - WPF - UWP - Java - JavaFX - HTML - CSS - JavaScript - ASP - PHP - Bootstrap - MySQL - SQL Server - SQLite - Firebase - Unity - Android - Kotlin - GIT</p>
-      </div>
-    </div>
+        </section>
 
-    <div class="text-center">
-      <a href="https://drive.google.com/open?id=1oKBDbWfu_uMvqU4gVqqq3dVUhCeVeXaU" class="btn curriculum-btn"><i class="fas fa-file-pdf"></i> Curriculum</a>
-    </div>
-  </section>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footerLogo">
+                    <img src="/Portfolio_Data/images/magina_big.png" class="d-inline-block align-top" alt="" width="100">
 
-  <section id="portfolio" style="padding-top: 50px;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2 class="text-center section-header">Portfólio</h2>
-        </div>
-      </div>
+                    <p>Copyright © 2020 Diogo Magina <i class="fas fa-hand-spock"></i></p>
+                </div>
+            </div>
+        </footer>
 
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Artiset</h2>
-          <p class="lead">Artiset é um nova comunidade de arte que tem como objetivo partilhar e dar a conhecer as pessoas, os trabalhos de artistas independentes de todo o mundo - 
-            isto porque a arte tem o poder de inspirar, evocar emoções e criar um impacto no mundo.<br>(Desenvolvida no âmbito da Prova de Aptidão Profissional.)</p>
+        <!-- Bootstrap core JavaScript -->
+        <script src="/Portfolio_Data/libraries/jquery/jquery.min.js"></script>
+        <script src="/Portfolio_Data/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-          <a href="Web_Artiset" class="btn curriculum-btn"><i class="fas fa-link"></i> Visitar</a>
-          <a href="Web_Artiset" class="btn btn-outline-secondary git-btn link-disabled"><i class="fab fa-gitlab"></i></i> Código Fonte <span style="font-size: 12px;">(GitLab)</span></a>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img src="Main\images\artiset_new.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500">
-        </div>
-      </div>
+        <!-- Plugin JavaScript -->
+        <script src="/Portfolio_Data/libraries/jquery-easing/jquery.easing.min.js"></script>
 
-      <hr class="featurette-divider">
+        <!-- Custom JavaScript -->
+        <script src="/Portfolio_Data/js/scrolling-nav.js"></script>
+        <script src="/Portfolio_Data/js/random-useless-methods.js"></script>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Mr. TicTacToe</h2>
-          <p class="lead">Um simples jogo do galo que te permite meter o papel e o lápis de lado e começares a jogar este clássico no teu smartphone Android.<br>
-          (Não está mais em desenvolvimento)</p>
-
-          <a href="https://play.google.com/store/apps/details?id=com.IntroByteEntertainment.MrTicTacToe&hl=en" class="btn curriculum-btn"><i class="fab fa-google-play"></i> Google Play</a>
-          <a href="https://github.com/magina99/MrTicTacToe_Android" class="btn btn-outline-secondary git-btn"><i class="fab fa-github"></i></i> Código Fonte <span style="font-size: 12px;">(GitHub)</span></a>
-        </div>
-        <div class="col-md-5">
-          <img src="Main\images\mr_tictactoe.png" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500">
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footerLogo">
-          <img src="Main\images\M.png" class="d-inline-block align-top" alt="" width="100">
-
-          <p>Copyright © 2020 Diogo Magina <i class="fas fa-hand-spock"></i></p>
-      </div>
-
-      <div class="col footer-bottom" style="font-size: 0.5rem;">
-          <a href="https://www.instagram.com/magina_99/"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/magina_99" style="padding-left: 1rem;"><i class="fab fa-twitter fa-3x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="Main/libraries/jquery/jquery.min.js"></script>
-  <script src="Main/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="Main/libraries/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom JavaScript for this theme -->
-  <script src="Main/js/scrolling-nav.js"></script>
-
-</body>
-
+    </body>
 </html>
