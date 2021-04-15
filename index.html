@@ -26,7 +26,10 @@
         <script src="/Main/js/scrolling-nav.js"></script>
         <script src="/Main/js/wow.js"></script>
         <script> new WOW().init();</script>
-	<script> document.getElementById("year").innerHTML = new Date().getFullYear(); </script>
+	    <script> 
+            console.log(new Date().getFullYear());
+            document.getElementById("year").innerHTML = new Date().getFullYear(); 
+        </script>
     </head>
 
     <body id="page-top">
@@ -321,7 +324,12 @@ as comunidades dos teus jogos favoritos.
                 <div class="footerLogo">
                     <img src="/Main/images/magina_big.png" class="d-inline-block align-top" alt="" width="100">
 
-                    <p>Copyright © <span id="year"></span> Diogo Magina <i class="fas fa-hand-spock"></i></p>
+                    <p>Copyright © 
+                        <span id="year">
+                            <script>document.getElementById('year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        </span> 
+                        Diogo Magina <i class="fas fa-hand-spock"></i>
+                    </p>
                 </div>
             </div>
         </footer>
