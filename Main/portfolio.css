@@ -300,11 +300,11 @@ footer{
     text-align: center;
 }
   
-.fa-twitter, .fa-instagram, .thisbish, .fa-gitlab {
+.fa-twitter, .fa-instagram, .thisbish, .fa-gitlab, .fa-linkedin {
     color: white;
 }
   
-.fa-twitter:hover, .fa-instagram:hover, .thisbish:hover, .fa-gitlab:hover  {
+.fa-twitter:hover, .fa-instagram:hover, .thisbish:hover, .fa-gitlab:hover, .fa-linkedin:hover  {
     transition: color 0.2s ease-out 0s;
     color: #333;
 }
